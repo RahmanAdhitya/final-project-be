@@ -25,6 +25,7 @@ const {
   reportRoutes
 } = require("./routes");
 
+// this is routes
 app.use("/auth", authRoutes);
 app.use("/transaction", transactionRoutes);
 app.use("/inventory", inventoryRoutes);
